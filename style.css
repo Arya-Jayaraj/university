@@ -1,0 +1,109 @@
+.list{
+    background-color: orange;
+    display:flex;
+    justify-content: space-between;
+    height: 30px;
+    color: honeydew;
+    padding: 5px
+;
+}
+.paragraph{
+    font-style:"Bree-Serif" ;
+    color: rgb(23, 15, 71);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:10px
+}
+.cont{
+    background-image: url("img.jpeg");
+    background-size: cover;
+    backdrop-filter:blur(3px)
+}
+.list1{
+    color: aqua;
+}
+.text{
+    color: rgb(32, 19, 2);
+    font-weight:bold;
+}
+.card{
+    color: rgb(61, 233, 233);
+}
+.container{
+   
+}
+.navbar1{
+    background-color: white;
+}
+img:hover{
+    transform:scale(90%);
+    transition:2s ease;
+}
+form{
+    background-color:antiquewhite;
+    padding:10px;
+    border:solid black;
+   justify-content:middle;
+   width:100vw
+   
+}
+.center{
+    text-align:center;
+    display: flex;
+}
+.headin{
+    color: rgb(190, 9, 133);
+    text-decoration: underline;
+}
+.about{
+    margin: 20px;
+}
+.heading-about{
+    color: rgb(0, 5, 3);
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.summary{
+    color: rgb(162, 183, 184);
+    background-color: brown;
+    padding: 10px;
+   
+    
+}
+.details{
+    background-color: antiquewhite;
+    margin-right: 10px;
+    
+}
+@keyframes color{
+    100%{
+        background-color: brown;
+        transform: translateY(0px);
+    }
+} 
+.main-head{
+    text-align: center;
+    animation: color 3s;
+}
+.last-head{
+    text-align: center;
+}
+.button{
+    color: brown;
+    height: 35px;
+    width: 60px;
+    font-family: "roboto";
+    background-color: darkkhaki;
+    border-width: 0px;
+   box-shadow: 8px;
+}
+.butt{
+    color: darkorange;
+    padding: 10px;
+}
+.lis{
+    color: rgb(23, 53, 80);
+    background-color: aliceblue;
+}
